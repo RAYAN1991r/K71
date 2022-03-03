@@ -29,8 +29,8 @@ client.on("ready", () => {
   ); 
   let statuses = [
     `Servers: ${client.guilds.size} Users: ${client.users.size}`,
-    `By Yaxi`,
-    `Yaxi Is Here`
+    `By RAYAN 1991`,
+    `K71 E-SPORT UP`
   ];
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
@@ -45,7 +45,7 @@ client.on("ready", () => {
 client.on("message", msg => {
   if (msg.content === "REKLAM") {
     msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+      "bnera"
     );
   }
 });
@@ -53,7 +53,7 @@ client.on("message", msg => {
 client.on("message", msg => {
   if (msg.content === "reklam") {
     msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+      "bnera"
     );
   }
 });
@@ -61,7 +61,7 @@ client.on("message", msg => {
 client.on("message", msg => {
   if (msg.content === "Reklam") {
     msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+      "bnera"
     );
   }
 });
@@ -69,7 +69,7 @@ client.on("message", msg => {
 client.on("message", msg => {
   if (msg.content === "Reklam?") {
     msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+      "bnera"
     );
   }
 });
@@ -77,7 +77,7 @@ client.on("message", msg => {
 client.on("message", msg => {
   if (msg.content === "سڵاو ڕیکلام ئەگوڕنەوە") {
     msg.reply(
-      "بـــنـــێــرە بــۆ مـــن گــــیـــان"
+      "bnera"
     );
   }
 });
@@ -85,13 +85,13 @@ client.on("message", msg => {
 client.on("message", msg => {
   if (msg.content === "ڕیکلام") {
     msg.reply(
-      "بــنــێــرە بــۆ مـــن گـــیــان"
+      "bnera"
     );
   }
 });
 /////Reklam////
-client.on('ready' , () => {
-var join = client.channels.get("id voice")/// ئاید ڤۆیس
+client.on('ready' , "wara"() => {
+var join = client.channels.get("930388542646013962")/// ئاید ڤۆیس
 if (join) join.join()
 })
 
@@ -101,14 +101,14 @@ if(message.channel.type === 'dm') {
  
 if (message.content.startsWith("https://discord.gg/")) {
  
-  message.author.send(`> link server`)/// لینکە سیرڤەرە خۆت
+  message.author.send(`> https://discord.gg/aN7PcBgQYM`)/// لینکە سیرڤەرە خۆت
  
-  client.channels.get("id text").send(
-`> Nerdra la layan <@${message.author.id}> 
+  client.channels.get("930388531266871296").send(
+`> Tos reklam bka <@${message.author.id}> 
 ${message.content}`)
 }
     }
         })
 
-client.login("");
+client.login("OTQ5MDU2NjA4ODI5MzEzMDk0.YiEz2A.dG8qya_qGmXxxXPqTTwSDkGiiUw");
 
